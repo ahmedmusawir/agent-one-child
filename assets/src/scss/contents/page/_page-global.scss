@@ -1,0 +1,36 @@
+/**
+ *
+ * General Styles for Single Post or Page
+ *
+ */
+
+.page-template {
+
+	// border: 1rem dotted red;
+	.entry-content {
+		// border: 1px dotted red;
+		margin-top: -.75rem;
+	}
+}
+
+#general-page-header {
+
+ 
+}
+
+.post-navigation {
+	// border: 1px solid red;
+	@include clearfix;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+
+	.nav-links {
+		.nav-previous {
+			float: left;
+		}
+		.nav-next {
+			float: right;
+		}
+	}
+}
+
