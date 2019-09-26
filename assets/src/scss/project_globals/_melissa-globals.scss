@@ -12,20 +12,34 @@
     }
 
     #input_11_3 {
-        // border: 1rem dotted blue;
-        margin-right: .2rem !important;
+        margin-right: .2rem;
         width: 95%;
+
+        @media (max-width: 640px) {
+            margin-right: 0rem !important;
+            width: 100%;
+
+            // border: 1rem dotted blue;
+        }
     }
 
     input {
         // border: 1rem dotted blue;
-        padding: 2rem !important;
+        padding: 2rem;
+
+        @media (max-width: 1350px) {
+            padding: 2rem 0 !important;
+        }
     }
 
     textarea {
         margin-top: 1.7rem;
-        padding: 2rem !important;
+        padding: 2rem;
         height: 300px;
+
+        @media (max-width: 1350px) {
+            padding: 2rem 0 !important;
+        }
     }
 
     #gform_submit_button_11 {
